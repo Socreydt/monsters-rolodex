@@ -16,6 +16,8 @@ class App extends Component{
     };
   }
 
+  
+
   // This is a life cycle method, it's like "OnLoad"
   componentDidMount(){
     fetch('https://jsonplaceholder.typicode.com/users')
